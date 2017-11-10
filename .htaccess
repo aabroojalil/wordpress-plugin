@@ -8,5 +8,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /wordpress/wordpress/index.php [L]
 </IfModule>
-#conflict_local
+#conflict_remote
 # END WordPress
